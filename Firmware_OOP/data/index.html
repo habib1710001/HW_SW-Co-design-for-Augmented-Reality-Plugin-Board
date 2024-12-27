@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Titan Menu</h1>
+        <span class="hamburger" onclick="openNav()">&#9776;</span>
+    </header>
+
+    <!-- Slide Menu -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Menu</a>
+        <a href="diagnostic.html">Diagnostic</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <section class="data-section">
+         <div class="slide-switch">
+           <span>GPS Position Display</span>
+           <button class="other-button" id="gpsButton" onclick="toggleGps()"> %gpsStatus% </button>
+         </div>
+         <div class="slide-switch">
+           <span>Navigation Display</span>
+           <button class="other-button" id="navButton" onclick="toggleNav()"> %navStatus%</button>
+         </div>
+        <div class="slide-switch">
+          <span>Vertical Level Display</span>
+          <button class="other-button" id="verticalButton" onclick="toggleVer()"> %verStatus% </button>
+        </div>   
+        <button class="save-button" onclick="checkSave()"> %saveStatus% </button>    
+        </section>
+    </div>
+    <!-- JavaScript for Side Navigation -->
+    <script>
+    
+    function toggleGps() {
+      window.location.href = "/gpsToggle";
+    }
+    function toggleNav() {
+      window.location.href = "/navToggle";
+    }
+    function toggleVer() {
+      window.location.href = "/verToggle";
+    }
+    function checkSave() {
+      window.location.href = "/save";
+    }
+    
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";  // Open side navigation
+            document.getElementById("main").style.marginRight = "250px";  // Shift main content
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";  // Dim background
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";  // Close side navigation
+            document.getElementById("main").style.marginRight = "0";  // Reset main content
+            document.body.style.backgroundColor = "white";  // Reset background color
+        }
+    </script>
+
+</body>
+</html>

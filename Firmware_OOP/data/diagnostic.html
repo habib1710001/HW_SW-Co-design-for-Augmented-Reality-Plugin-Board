@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnostic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>DIAGNOSTIC</h1>
+        <span class="hamburger" onclick="openNav()">&#9776;</span>
+        <meta http-equiv="refresh" content="10">
+    </header>
+
+    <!-- Slide Menu -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Menu</a>
+        <a href="diagnostic.html">Diagnostic</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <section class="data-section">
+            <!-- Part One: Accelerometer Data -->
+            <h2>Accelerometer Data</h2>
+            <p>X: <strong>%accX%</strong> </p>
+            <p>Y: <strong>%accY%</strong> </p>
+            <p>Z: <strong>%accZ%</strong> </p>
+
+            <div class="separator"></div>
+            <!-- Part Two: GPS Data -->
+            <h2>GPS Data</h2>
+            <p>Satellites in Track: <strong>%satNo%</strong></p>
+            <p>Latitude: <strong>%Lat%</strong> Degree</p>
+            <p>Longitude: <strong>%Long%</strong> Degree </p>
+
+            <div class="separator"></div>
+
+            <!-- Part Three: Battery -->
+            <h2>Battery</h2>
+            <p>Battery Status: OK</p>
+            <p>Battery Charge: 85%</p>
+            <p>Charging: True</p>
+        </section>
+    </div>
+
+    <!-- JavaScript for Side Navigation -->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";  // Open the side navigation
+            document.getElementById("main").style.marginRight = "250px";  // Shift main content
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";  // Dim background
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";  // Close the side navigation
+            document.getElementById("main").style.marginRight = "0";  // Reset main content
+            document.body.style.backgroundColor = "white";  // Reset background color
+        }
+    </script>
+
+</body>
+</html>

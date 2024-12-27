@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>ABOUT</h1>
+        <span class="hamburger" onclick="openNav()">&#9776;</span>
+    </header>
+
+    <!-- Side Navigation -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Menu</a>
+        <a href="diagnostic.html">Diagnostics</a>
+        <a href="about.html">About</a>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <section class="about-section">
+            <h2>Titan PCB Board Interface</h2>
+            <p>Titan PCB is a highly capable interfacing system designed for various applications. It integrates GPS, navigation, and vertical level sensors to provide accurate and real-time data to ensure smooth operations.</p>
+            <p><strong>Version:</strong> 1.1</p>
+            <p>Developed by the Titan Engineering Team, this system is built for reliability and performance in critical environments.</p>
+        </section>
+    </div>
+
+    <!-- JavaScript for Side Navigation -->
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";  // Open side navigation
+            document.getElementById("main").style.marginRight = "250px";  // Shift main content
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";  // Dim background
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";  // Close side navigation
+            document.getElementById("main").style.marginRight = "0";  // Reset main content
+            document.body.style.backgroundColor = "white";  // Reset background color
+        }
+    </script>
+
+</body>
+</html>
