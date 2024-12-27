@@ -10,6 +10,7 @@ The AR Glass Plugin Board is an innovative solution designed to tranform any tra
 4. **Advanced Detection**: Integrated precise movement detection using MPU 6050 gyrosensor for accurate performance.
 5. **Robust Protection**: Implemented EMC/EMI immunity, reverse voltage, safe in-circuit charging, and ESD protection, along with overcharging protection to ensure reliability.
 6. **OTA Updates**: Implemented a WiFi-based Over-the-Air firmware upgrade feature.
+7.  **Firmware**: Implemented Object Oriented Programming appraoch.
 
 ## PCB Design and Visuals
 
@@ -30,7 +31,14 @@ The AR Glass Plugin Board is an innovative solution designed to tranform any tra
 <img src="Rendering1.png" alt="Real View1" width="50%" />
 <img src="Rendering2.png" alt="Real View2" width="50%" />
 
+## Graphical User Interface Design
+<img src="gui_design.png" alt="gui_flow" width="90%" />
+<img src="gui_real_view1.jpg" alt="Real View1" width="60%" />
+<img src="gui_real_view2.jpg" alt="Real View2" width="60%" />
 
+## Over-the-Air Web Interface Design
+<img src="OTA_view1.jpg" alt="OTA View1" width="60%" />
+<img src="OTA_view2.jpg" alt="OTA View2" width="60%" />
 
 
 ## How to Use
