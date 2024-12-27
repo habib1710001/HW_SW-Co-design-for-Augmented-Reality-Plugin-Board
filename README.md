@@ -32,17 +32,11 @@ The AR Glass Plugin Board is an innovative solution designed to tranform any tra
 ![Fabricated View1](Rendering1.png)
 ![Fabricated View2](Rendering2.png)
 
-## Repository Structure
-```
-|-- README.md
-|-- images
-|   |-- schematic-image.png
-|   |-- top-layer-image.png
-|   |-- bottom-layer-image.png
-|   |-- 3d-view-image.png
-|-- pcb-design-files
-    |-- project-files
-```
+### PCB Layout
+<img src="Top_Layer.png" alt="Top Layer" width="50%" />
+<img src="Bottom_Layout.png" alt="Bottom Layer" width="50%" />
+<img src="All_Layout.png" alt="Trace Layer" width="50%" />
+
 
 ## How to Use
 1. Clone the repository to your local machine.
