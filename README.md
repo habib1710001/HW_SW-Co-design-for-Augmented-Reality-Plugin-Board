@@ -4,7 +4,7 @@
 The AR Glass Plugin Board is an innovative solution designed to tranform any traditional glass to a AR based smart glass.
 
 ### Device View
-<img src="device_view1.jpg" alt="device_view1" width="40%" />
+<img src="device_view1.jpg" alt="device_view1" width="30%" />
 
 ### Key Features:
 1. **Energy Efficiency**: Achieved power consumption under 38 mW without sacrificing GNSS performance.
