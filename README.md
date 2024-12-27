@@ -1,4 +1,4 @@
-# Embedded Design Project: Augmented Reality Glass Plugin Board
+# HW/SW Co-design for Augmented Reality Plugin Board
 
 ## Project Overview
 The AR Glass Plugin Board is an proof-of-concept protype device designed to tranform any traditional glass to a AR based smart glass.
