@@ -10,32 +10,27 @@ The AR Glass Plugin Board is an innovative solution designed to tranform any tra
 4. **Advanced Detection**: Integrated precise movement detection using MPU 6050 gyrosensor for accurate performance.
 5. **Robust Protection**: Implemented EMC/EMI immunity, reverse voltage, safe in-circuit charging, and ESD protection, along with overcharging protection to ensure reliability.
 6. **OTA Updates**: Implemented a WiFi-based Over-the-Air firmware upgrade feature.
-7. 
 
 ## PCB Design and Visuals
 
 ### Schematic
-![Schematic Diagram1](Titan_Sheet_1.jpg)
-![Schematic Diagram2](Titan_Sheet_2.jpg)
-
-### PCB Layout
-![Top Layer](Top_Layer.png)
-![Bottom Layer](Bottom_Layout.png)
-![Trace Layer](All_Layout.png)
-
-
-### 3D Rendering View
-![3D View1](Rendering1.png)
-![3D View2](Rendering2.png)
-
-### Fabricated View
-![Fabricated View1](Rendering1.png)
-![Fabricated View2](Rendering2.png)
+<img src="Titan_Sheet_1.jpg" alt="Schematic Diagram1" width="50%" />
+<img src="Titan_Sheet_2.jpg" alt="Schematic Diagram2" width="50%" />
 
 ### PCB Layout
 <img src="Top_Layer.png" alt="Top Layer" width="50%" />
 <img src="Bottom_Layout.png" alt="Bottom Layer" width="50%" />
 <img src="All_Layout.png" alt="Trace Layer" width="50%" />
+
+### 3D Rendering View
+<img src="Rendering1.png" alt="3D View1" width="50%" />
+<img src="Rendering2.png" alt="3D View2" width="50%" />
+
+### Fabricated View
+<img src="Rendering1.png" alt="Real View1" width="50%" />
+<img src="Rendering2.png" alt="Real View2" width="50%" />
+
+
 
 
 ## How to Use
