@@ -33,12 +33,12 @@ The AR Glass Plugin Board is an innovative solution designed to tranform any tra
 
 ## Graphical User Interface Design
 <img src="gui_design.png" alt="gui_flow" width="90%" />
-<img src="gui_real_view1.jpg" alt="Real View1" width="60%" />
-<img src="gui_real_view2.jpg" alt="Real View2" width="60%" />
+<img src="gui_real_view1.jpg" alt="Real View1" width="50%" />
+<img src="gui_real_view2.jpg" alt="Real View2" width="50%" />
 
 ## Over-the-Air Web Interface Design
-<img src="OTA_view1.jpg" alt="OTA View1" width="60%" />
-<img src="OTA_view2.jpg" alt="OTA View2" width="60%" />
+<img src="OTA_view1.jpg" alt="OTA View1" width="50%" />
+<img src="OTA_view2.jpg" alt="OTA View2" width="50%" />
 
 
 ## How to Use
