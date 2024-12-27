@@ -35,19 +35,12 @@ The AR Glass Plugin Board is an innovative solution designed to tranform any tra
 <img src="gui_design.png" alt="gui_flow" width="90%" />
 <img src="gui_real_view1.jpg" alt="Real View1" width="50%" />
 <img src="gui_real_view2.jpg" alt="Real View2" width="50%" />
+<img src="gui_real_view3.jpg" alt="Real View3" width="50%" />
 
 ## Over-the-Air Web Interface Design
 <img src="OTA_view1.jpg" alt="OTA View1" width="50%" />
 <img src="OTA_view2.jpg" alt="OTA View2" width="50%" />
 
 
-## How to Use
-1. Clone the repository to your local machine.
-2. Open the schematic and PCB design files using your preferred EDA tool.
-3. Review the design and adapt it to your specific use case.
-
 ## Contributions
 Contributions are welcome! If you have suggestions or improvements, feel free to fork this repository and submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
