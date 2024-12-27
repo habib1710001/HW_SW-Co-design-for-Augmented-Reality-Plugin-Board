@@ -27,18 +27,18 @@ The AR Glass Plugin Board is an proof-of-concept protype device designed to tran
 <img src="All_Layout.png" alt="Trace Layer" width="50%" />
 
 ### 3D Rendering View
-<img src="Rendering1.png" alt="3D View1" width="50%" />
-<img src="Rendering2.png" alt="3D View2" width="50%" />
+<img src="Rendering1.png" alt="3D View1" width="40%" />
+<img src="Rendering2.png" alt="3D View2" width="40%" />
 
 ## Graphical User Interface Design
 <img src="gui_design.png" alt="gui_flow" width="90%" />
-<img src="gui_real_view1.jpg" alt="Real View1" width="50%" />
-<img src="gui_real_view2.jpg" alt="Real View2" width="50%" />
-<img src="gui_real_view3.jpg" alt="Real View3" width="50%" />
+<img src="gui_real_view1.jpg" alt="Real View1" width="40%" />
+<img src="gui_real_view2.jpg" alt="Real View2" width="40%" />
+<img src="gui_real_view3.jpg" alt="Real View3" width="40%" />
 
 ## Over-the-Air Web Interface Design
-<img src="OTA_view1.jpg" alt="OTA View1" width="50%" />
-<img src="OTA_view2.jpg" alt="OTA View2" width="50%" />
+<img src="OTA_view1.jpg" alt="OTA View1" width="40%" />
+<img src="OTA_view2.jpg" alt="OTA View2" width="40%" />
 
 
 ## Contributions
