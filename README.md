@@ -1,4 +1,4 @@
-# TITAN: Augmented Reality Glass Plugin Board
+# Embedded Design Project: Augmented Reality Glass Plugin Board
 
 ## Project Overview
 The AR Glass Plugin Board is an innovative solution designed to tranform any traditional glass to a AR based smart glass.
