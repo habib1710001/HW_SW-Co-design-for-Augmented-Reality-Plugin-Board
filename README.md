@@ -1,7 +1,7 @@
 # HW/SW Co-design for Augmented Reality Plugin Board
 
 ## Project Overview
-The AR Glass Plugin Board is an proof-of-concept protype device designed to tranform any traditional glass to a AR based smart glass.
+The AR Glass Plugin Board is an proof-of-concept prototype device designed to tranform any traditional glass to a AR based smart glass.
 
 ### Device View
 <img src="device_view1.jpg" alt="device_view1" width="30%" />
